@@ -1,0 +1,35 @@
+/* Dashboard.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Make body height equal to viewport height */
+  }
+  
+  .dashboard {
+    width: 300px; /* Set a fixed width for the dashboard container */
+    text-align: center; /* Center align text content */
+  }
+  
+  .dashboard button {
+    display: block; /* Display buttons as block elements */
+    width: 100%; /* Make the buttons fill the container width */
+    margin-bottom: 10px; /* Add spacing between buttons */
+    padding: 10px; /* Add padding to buttons */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .dashboard button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  
+  .dashboard h2 {
+    margin-top: 20px; /* Add spacing above heading */
+  }
+  

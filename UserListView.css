@@ -1,0 +1,27 @@
+/* UserListView.css */
+.user-list-view {
+    width: 300px; /* Set a fixed width for the user list view container */
+    margin: 0 auto; /* Center the user list view container horizontally */
+    text-align: center;
+  }
+  
+  .user-list-view input {
+    width: 100%; /* Make the input field fill the container width */
+    margin-bottom: 10px; /* Add spacing below the input field */
+    padding: 8px; /* Add padding to the input field */
+    border: 1px solid #ccc; /* Add border to the input field */
+    border-radius: 5px; /* Add border radius to the input field */
+  }
+  
+  .user-list-view ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding from the list */
+  }
+  
+  .user-list-view li {
+    margin-bottom: 5px; /* Add spacing between list items */
+    padding: 10px; /* Add padding to list items */
+    background-color: #f4f4f4; /* Set background color for list items */
+    border-radius: 5px; /* Add border radius to list items */
+  }
+  
